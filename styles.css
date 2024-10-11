@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    flex-grow: 1; /* Allow text to take available space */
+}
+
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 60%; /* Circular image */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
